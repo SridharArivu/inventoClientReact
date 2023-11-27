@@ -1,0 +1,54 @@
+.Client_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 70vh;
+    margin-top: 8rem;
+}
+
+.Client_feilds{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid dimgray;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 60%;
+    height: 50px;
+}
+
+.clientIDCopy{
+    display:flex;
+    width: 25%;
+    align-items: center;
+    justify-content: space-between;
+}
+.TokenUrlCopy{
+    display:flex;
+    width: 51%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.clientSecretCopy{
+    display:flex;
+    width: 23%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.clientIDCopy .copy__btn{
+    cursor: pointer;
+}
+
+.clientSecretCopy .copy__btn{
+    cursor: pointer;
+}
+
+.TokenUrlCopy .copy__btn{
+    cursor: pointer;
+}
